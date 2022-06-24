@@ -4,7 +4,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 
 bot = commands.Bot(command_prefix="마도제 ")
-TOKEN = open("TOKEN", "r").readline()
+TOKEN = os.environ.get("BOT_TOKEN")
 @bot.event
 async def on_ready():
     print("MC-C Bot started up")
