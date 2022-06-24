@@ -4,7 +4,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 
 bot = commands.Bot(command_prefix="마도제 ")
-TOKEN = 'OTg3MzU2OTg1NjcyNDk1MTc0.GN2FVW.46HzIgqvc8jv2dwUs4yXXK7hH0K_VxNzGguXLU'
+TOKEN = 'OTg3MzU2OTg1NjcyNDk1MTc0.Ghei-B.MJfQpgvXFszhuYoOCTDQOrCMP51j7TZIkEgf94'
 
 @bot.event
 async def on_ready():
