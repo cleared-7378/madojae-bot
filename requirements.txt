@@ -1,2 +1,4 @@
 discord.py
 asynico
+os
+email
